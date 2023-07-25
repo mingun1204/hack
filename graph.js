@@ -22,12 +22,9 @@ const btnClickEvt = () => {
   
   
   
-  
-  
-  
   if (document.getElementsByClassName("polyline1") !== null) {
     // document.querySelector('polyline').setAttribute('points',chartData)
-    document.getElementById( 'polylineid' ).setAttribute( 'points', "10,23 32,23 54,65 123,45, 234,43" );
+    document.querySelector('polyline').setAttribute('points', chartData);
     console.log("!")
   } else {
     console.log("?");
