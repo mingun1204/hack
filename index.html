@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>    
     <link rel="stylesheet" href="output.css">
-    
+    <style>
+      .polyline1 {
+          fill: none;
+          stroke: red; /* 첫 번째 그래프 색상을 빨간색으로 지정 */
+          stroke-width: 2;
+      }
+
+      .polyline2 {
+          fill: none;
+          stroke: blue; /* 두 번째 그래프 색상을 파란색으로 지정 */
+          stroke-width: 2;
+      }
+  </style>
 </head>
 <body>
   <script type="text/javascript" src="graph.js"></script>
@@ -14,72 +26,68 @@
           <ul class="graph_bg">
             <!-- 그래프 point top 값 % 로 입력 0 ~ 100% -->
             <li>
-              <strong class="graph_title">1</strong>
+              <strong class="graph_title">2009</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">2</strong>
+              <strong class="graph_title">2010</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">3</strong>
+              <strong class="graph_title">2011</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">4</strong>
+              <strong class="graph_title">2012</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">5</strong>
+              <strong class="graph_title">2013</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">6</strong>
+              <strong class="graph_title">2014</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">7</strong>
+              <strong class="graph_title">2015</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">8</strong>
+              <strong class="graph_title">2016</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">9</strong>
+              <strong class="graph_title">2017</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
             <li>
-              <strong class="graph_title">10</strong>
+              <strong class="graph_title">2018</strong>
               <button class="graph_point" aria-expanded="false">
-                <span class="a11y">정확한 수치 보기</span>
+              </button>
+              <div class="graph_tip"><strong></strong></div>
+            </li>
+            <li>
+              <strong class="graph_title">2019</strong>
+              <button class="graph_point" aria-expanded="false">
               </button>
               <div class="graph_tip"><strong></strong></div>
             </li>
@@ -90,16 +98,15 @@
               y 값 : button class="graph_point" top % 의 두배 수 (예: 10% -> 20)
               적용 : points="x,y x,y ....."
               -->
-            <!-- <svg >
-              <polyline points="2009,13 2010,14 2011,15">ㅏㅏ</polyline>
-            </svg> -->
             <div class="svgBox">
               <svg class="svg" height="216">
                 <polyline id="polylineid" class="polyline1" points=""></polyline>
+                <polyline id="polylineid" class="polyline2" points=""></polyline>
               </svg>
             </div>
           </div>
         </div>
       </div>
-</body>
+  </body>
 </html>
+

@@ -107,17 +107,6 @@
   display: none;
 }
 
-.a11y {
-  position: absolute;
-  overflow: hidden;
-  height: 1px;
-  width: 1px;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  word-break: initial;
-  word-wrap: initial;
-}
 
 .graph_tip {
   position: absolute;
@@ -186,6 +175,9 @@
   to {
     transform: scale(1);
   }
+}
+.polyline1{
+  stroke:red;
 }
 
 /*# sourceMappingURL=output.css.map */
