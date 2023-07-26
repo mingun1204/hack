@@ -93,5 +93,5 @@ var bee=[
 var beej = JSON.stringify(bee)
 var temj = JSON.stringify(tem)
 // document.getElementById("div1").innerHTML(beej);
-// console.log(beej)
-// console.log(temj)
+// console.log(beej) 12.7, 12.4, 12.1, 12.1, 12.6, 12.8, 13.1, 13.4, 12.8, 12.8, 13.3
+// console.log(temj) 38.3418, 17.1827, 10.0756, 14.9172, 9.8899, 9.4383, 10.9818, 11.9028, 16.5718, 12.9816, 13.1530 /꿀벌 수

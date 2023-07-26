@@ -162,7 +162,6 @@
   animation: polyline 2s forwards;
 }
 .graph_line svg polyline {
-  stroke: rgba(105, 16, 239, 0.2);
   stroke-width: 4px;
 }
 
@@ -175,9 +174,6 @@
   to {
     transform: scale(1);
   }
-}
-.polyline1{
-  stroke:red;
 }
 
 /*# sourceMappingURL=output.css.map */
